@@ -10,6 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('level', function () {
+    return view('/haksara/level');
+});
 
 Route::get('/', function () {
     return view('/haksara/halamanisilevel');
